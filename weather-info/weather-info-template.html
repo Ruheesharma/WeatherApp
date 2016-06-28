@@ -1,0 +1,20 @@
+	<div class="row form-inline center mb10">
+	        <div class="input-group">
+	          <span class="input-group-addon glyphicon glyphicon-map-marker"></span>
+	          <input type="text" class="form-control" ng-model="newCity" 
+	            placeholder="Enter a city name" aria-describedby="basic-addon1">
+	        </div>
+	        <button class="btn btn-primary m10" ng-click="addCity(newCity)">Add
+	                City</button>
+	    </div>
+	 <div class="row">
+			<div class="container">
+				<div class="col-lg-3 col-sm-4 text-center" ng-repeat="weatherItem in weatherItems">
+					<div class="weather-item" ng-click="showDetail(weatherItem)">
+						<h3 class="pt3">{{weatherItem.city}}</h3>
+						<h4>{{weatherItem.temp}}</h4>
+						<h4>Status: {{weatherItem.status}}</h4>
+					</div>
+				</div>
+			</div>
+		</div>

@@ -1,0 +1,26 @@
+{  
+   "message":"accurate",
+   "list":[  
+      {  
+         "id":1259229,
+         "name":"Pune",
+         "main":{  
+            "temp":300.533,
+            "temp_min":300.533,
+            "temp_max":300.533,
+            "humidity":69
+         },
+         "sys":{  
+            "country":"IN"
+         },
+         "weather":[  
+            {  
+               "id":802,
+               "main":"Clouds",
+               "description":"scattered clouds",
+               "icon":"03d"
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Content</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/home.css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.2.7/angular-local-storage.js"></script>
+<script src="weather-info/weather-info-module.js"></script>
+<script src="weather-summary/weather-summary-module.js"></script>
+<script src="weather-info/weather-info-component.js"></script>
+<script src="weather-summary/weather-summary-component.js"></script>
+<script src="js/app.js"></script>
+</head>
+<body>
+	<div ng-app="weatherApp">
+	<weather-info></weather-info>
+	<weather-summary></weather-summary>
+	</div>
+</body>
+</html>
